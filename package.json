@@ -1,0 +1,37 @@
+{
+  "name": "whatsapp-topics-pipe",
+  "version": "1.0.0",
+  "description": "A screenpipe plugin that extracts and categorizes important topics from WhatsApp Web conversations",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "next dev -p 3030",
+    "build": "next build",
+    "start": "next start -p 3030"
+  },
+  "dependencies": {
+    "@screenpipe/js": "latest",
+    "@screenpipe/node": "latest",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ai": "^3.0.0",
+    "ollama-ai-provider": "^0.8.0",
+    "zod": "^3.22.0",
+    "date-fns": "^3.0.0",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
