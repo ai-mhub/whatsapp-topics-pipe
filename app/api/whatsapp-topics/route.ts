@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { captureWhatsAppData, getDailyWhatsAppData } from "@/lib/whatsapp-data";
-import { extractMessagesFromCaptures } from "@/lib/message-parser";
+import { captureWhatsAppData, getDailyWhatsAppData } from "../../../src/lib/whatsapp-data";
+import { extractMessagesFromCaptures } from "../../../src/lib/message-parser";
 import { extractTopics, categorizeMessages, extractActionItems } from "@/lib/ai-analyzer";
 import { generateDailySummary, formatDailySummary } from "@/lib/daily-summary";
 import { loadSettings, shouldProcessSender } from "@/lib/settings";
